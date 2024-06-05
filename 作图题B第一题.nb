@@ -1,0 +1,85 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2361,         77]
+NotebookOptionsPosition[      1991,         62]
+NotebookOutlinePosition[      2408,         79]
+CellTagsIndexPosition[      2365,         76]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"RegionPlot3D", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"x", "^", "2"}], "+", 
+        RowBox[{"z", "^", "2"}]}], "<=", "1"}], "&&", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"y", "^", "2"}], "+", 
+        RowBox[{"z", "^", "2"}]}], "<=", "1"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", 
+      RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"y", ",", 
+      RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"z", ",", 
+      RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+    RowBox[{"PlotPoints", "->", "50"}], ",", 
+    RowBox[{"Mesh", "->", "None"}], ",", 
+    RowBox[{"AxesLabel", "->", 
+     RowBox[{"{", 
+      RowBox[{"\"\<x\>\"", ",", "\"\<y\>\"", ",", "\"\<z\>\""}], "}"}]}], ",", 
+    RowBox[{"PlotStyle", "->", 
+     RowBox[{"Directive", "[", 
+      RowBox[{"Orange", ",", 
+       RowBox[{"Opacity", "[", "0.7", "]"}]}], "]"}]}], ",", 
+    RowBox[{"Boxed", "->", "False"}], ",", 
+    RowBox[{"Lighting", "->", "\"\<Neutral\>\""}], ",", 
+    RowBox[{"Background", "->", "LightGray"}], ",", 
+    RowBox[{"AxesStyle", "->", 
+     RowBox[{"Directive", "[", 
+      RowBox[{"Black", ",", "Thick"}], "]"}]}]}], "]"}], "\n"}]], "Input",
+ CellChangeTimes->{3.926490765771377*^9},
+ CellLabel->
+  "In[349]:=",ExpressionUUID->"68ded6db-ab4c-4f83-899a-b967d9364a56"]
+},
+WindowSize->{1080, 652},
+WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (2023\:5e747\:670824\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"ccf360b0-a340-41d9-a65a-ad7810f58013"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1429, 40, 135, "Input",ExpressionUUID->"68ded6db-ab4c-4f83-899a-b967d9364a56"]
+}
+]
+*)
+
